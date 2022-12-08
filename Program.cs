@@ -1,5 +1,5 @@
 ﻿//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-/*
+
 int SecoundDigit(int number)
 {
    while(number>100)
@@ -12,10 +12,12 @@ int SecoundDigit(int number)
 Console.Write("Please, write your number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Secound digit in number {number} is: " + SecoundDigit(number));
-*/
+
+
+
 
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
-/*
+
 int ThirdDigit(int number)
 {
    if(number>100)
@@ -38,7 +40,9 @@ if(digit == -1)
    Console.WriteLine("There's is no third digit in number " + number);
 else
    Console.WriteLine($"Third digit in number {number} is: " + digit);
-*/
+
+
+
 
 //Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
